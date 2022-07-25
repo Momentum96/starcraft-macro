@@ -86,7 +86,6 @@ def main():
     print("2번 단축키 : 생산(다른 종족)")
     print("3번 단축키 : 랠리")
     print("4번 단축키 : 오토마우스")
-    print("0번 단축키 : 디스")
     print("=" * 20)
 
     while True:
@@ -102,10 +101,6 @@ def main():
         elif keyboard.is_pressed("ctrl+shift+4"):
             print("4번 단축키 : 오토마우스")
             auto_mouse()
-        elif keyboard.is_pressed("ctrl+shift+0"):
-            print("0번 단축키 : 디스")
-            time.sleep(0.2)
-            diss()
         time.sleep(0.01)
 
 
